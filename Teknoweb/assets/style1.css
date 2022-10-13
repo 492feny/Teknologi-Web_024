@@ -1,0 +1,30 @@
+ /*Sytle Default*/
+    #maincontent {
+        width: auto;
+        float: right;
+    }
+    #sidebar {
+        width: auto;
+        float: left;
+    }
+    /*Jika ukuran layar 680px atau kurang dari itu*/
+    @media screen and (max-width:680px) {
+        #maincontent {
+            width: auto;
+            float: none;
+        }
+        #sidebar {
+            width: auto;
+            float: none;
+        }
+    }
+    /*Jika ukuran layar 480px atau kurang dari*/
+    @media screen and (max-width:480px) {
+        #maincontent {
+            width: auto;
+            float: none;
+        }
+        #sidebar {
+            display: none;
+        }
+    }
